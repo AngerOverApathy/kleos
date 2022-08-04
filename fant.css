@@ -1,34 +1,19 @@
-/*delete when merged*/
-.menu {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    background-color: rgb(72, 6, 6);
-    color: white;
-    top: 0;
-    padding: 1rem 0 1rem 1rem;
-}
-/*dont delete below this*/
-
 .fg-album {
     display: grid;
-    grid-gap: 0.5rem;;
+    grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
     padding: 1rem;
-    margin: 0 auto;
     /* background-color: black; */
 }
 
-.fg-album > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pic {
+    border: solid black 1px;
+    width: 23vw;
+    padding: 0.3rem;
 }
 
-.fg-album > div > img {
-    width: 100%;
-    height: 100%;
-    border: solid black 1px;
+.horizontal {
+    grid-column: span 2;
 }
 
 .fg-album > div > img:hover {
@@ -36,25 +21,8 @@
     box-shadow: 0.5px 0.5px 2px 2px rgb(237, 234, 201);
 } 
 
- .horizontal {
-    grid-column: span 2;
-}
-
-
-.vertical {}
-
-.big {}
-
-
-/* delete this section when merged with style.css */
-.footer {
-    border: solid rgb(72, 6, 6);
-    text-align: center;
-    background-color: rgb(72, 6, 6);
-    color: white;
-    font-family: 'Lipstick';
-    /* display: flex;
-    flex-direction: column; */
-    bottom: 0;
-    margin: 0;
+.fix-pic {
+    display: flex;
+    justify-content: center;
+    max-width: 25vw;
 }
