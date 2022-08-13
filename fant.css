@@ -12,9 +12,9 @@
     padding: 0.3rem;
 }
 
-/* .horizontal {
+.horizontal {
     grid-column: span 2;
-} */
+}
 
 .fg-album > div > img:hover {
     transform: scale(1.1);
