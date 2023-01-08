@@ -5,28 +5,40 @@ body {
     flex-direction: column;
 }
 
-.header, .photo-reel, .intro, .contact-me {
+.photo-reel, .intro, .contact-me {
     display: grid;
     place-content: center;
 }
 
-.header {
+.header-style {
     border-bottom: solid black;
     margin: 0;
-    padding: 0.5rem;
 }
 
 .header-style {
-    margin: 1rem;
-    padding: 2rem;
-    text-align: center;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    /* display: flex;
+    flex-direction: row; */
 }
 
-a, li {
+a {
     color: inherit;
     list-style-type: none;
     text-decoration: none;
-    display: inline-block;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > div {
+    flex: 1;
+}
+
+.menu > .name {
+    margin-right: auto;
+    flex: 2;
 }
 
 .photo-reel {
