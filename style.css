@@ -28,7 +28,7 @@ a {
     margin: 0;
     padding: 1rem;
     /* margin-top: 4rem; */
-    background-color: rgb(35, 5, 5);
+    background-color: rgb(72, 6, 6);
     color: white;
 }
 
@@ -39,7 +39,7 @@ a {
     font-size: 5rem;
 }
 
-.menu > .about, .contact, .gallery, .faq {
+.menu > .about, .contact, .gallery, .faq, .blog {
     padding-left: 2rem;
     padding-right: 2.2rem;
     padding-bottom: 0.5rem;
@@ -111,10 +111,21 @@ h2 {
     margin-top: auto;
 }
 
+.contact-links > p {
+    font-family: 'Lipstick';
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    display: flex;
+}
+.insta, .email, .facebook {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 .footer {
-    border: solid rgb(35, 5, 5);
+    border: solid rgb(72, 6, 6);
     text-align: center;
-    background-color: rgb(35, 5, 5);
+    background-color: rgb(72, 6, 6);
     color: white;
     font-family: 'Lipstick';
     font-size: xx-large;
