@@ -11,6 +11,8 @@ body {
     flex-direction: column;
 }
 
+/*nav bar*/
+
 .photo-reel, .intro, .contact-me {
     display: grid;
     place-content: center;
@@ -58,6 +60,8 @@ a {
     justify-content: center;
 }
 
+/*intro image and about me*/
+
 .intro-img {
     border: black solid 2px;
     margin: 2rem;
@@ -76,12 +80,14 @@ h2 {
     margin: 2rem;
 }
 
-.about-intro {
+.about-me {
     margin: auto 5rem auto 5rem;
     font-size: 2rem;
     padding: auto;
     padding-bottom: 2rem;
 }
+
+/*contact section*/
 
 .contact-info {
     margin: auto;
@@ -92,7 +98,8 @@ h2 {
 }
 
 .contact-img {
-    max-width: 40%;
+    max-width: 45%;
+    max-height: 8%;
     margin: 0;
     padding: 0;
 }
@@ -119,8 +126,9 @@ h2 {
 }
 .insta, .email, .facebook {
     margin-top: 2rem;
-    margin-left: 2rem;
 }
+
+/*footer*/
 
 .footer {
     border: solid rgb(72, 6, 6);
