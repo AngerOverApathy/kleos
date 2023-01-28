@@ -1,0 +1,21 @@
+.gallery-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+
+/* delete this section when merged with style.css */
+.footer {
+    border: solid rgb(72, 6, 6);
+    text-align: center;
+    background-color: rgb(72, 6, 6);
+    color: white;
+    font-family: 'Lipstick';
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+}

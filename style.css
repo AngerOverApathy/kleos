@@ -139,6 +139,8 @@ h2 {
     font-size: xx-large;
     display: flex;
     flex-direction: column;
+    bottom: 0;
+    width: 100%;
 }
 
 /*small*/
