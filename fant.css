@@ -10,13 +10,19 @@
 }
 /*dont delete below this*/
 
-.fg-albumn {
+
+
+
+
+
+
+/* .fg-albumn {
     display: grid;
     grid-gap: 0.5rem;;
     padding: 1rem;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    /* background-color: black; */
+    background-color: black;
 }
 
 .fg-albumn > div {
@@ -31,19 +37,16 @@
     border: solid black 1px;
 }
 
-/* .vertical {
-    grid-row: span 2;
-} */
-
 .horizontal {
     grid-column: span 2;
-}
+} */
 
-.vertical {
 
-}
 
-.big {}
+
+/* .vertical {}
+
+.big {} */
 
 
 
