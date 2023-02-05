@@ -1,0 +1,40 @@
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    place-items: center;
+}
+
+.font {
+    font-family: 'Lipstick';
+    font-size: 3rem;
+}
+
+.font:hover {
+    text-decoration: underline;
+}
+
+.gallery-grid > div {
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.gallery-grid > img {
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+
+
+/* delete this section when merged with style.css */
+.footer {
+    border: solid rgb(72, 6, 6);
+    text-align: center;
+    background-color: rgb(72, 6, 6);
+    color: white;
+    font-family: 'Lipstick';
+    /* display: flex;
+    flex-direction: column; */
+    bottom: 0;
+    margin: 0;
+}
