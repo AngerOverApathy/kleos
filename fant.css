@@ -10,47 +10,40 @@
 }
 /*dont delete below this*/
 
-
-
-
-
-
-
-/* .fg-albumn {
+.fg-album {
     display: grid;
     grid-gap: 0.5rem;;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
     padding: 1rem;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    background-color: black;
+    /* background-color: black; */
 }
 
-.fg-albumn > div {
+.fg-album > div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.fg-albumn > div > img {
+.fg-album > div > img {
     width: 100%;
     height: 100%;
     border: solid black 1px;
 }
 
-.horizontal {
+.fg-album > div > img:hover {
+    transform: scale(1.1);
+    box-shadow: 0.5px 0.5px 2px 2px rgb(237, 234, 201);
+} 
+
+ .horizontal {
     grid-column: span 2;
-} */
+}
 
 
+.vertical {}
 
-
-/* .vertical {}
-
-.big {} */
-
-
-
-
+.big {}
 
 
 /* delete this section when merged with style.css */
