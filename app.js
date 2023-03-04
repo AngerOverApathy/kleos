@@ -36,5 +36,14 @@ const images = fileNames.map(x => {
     }
 });
 
+for (let i = 0; i < images.length; i++) {
+    const fantImage = `
+    <div class="${images[i].orientation}"><a href = "${images[i].url}" data-lightbox="fairy1" data-title="Image Caption"><img src="${images[i].url}" class="pic"></a></div>
+    `
+    albumContainer.innerHTML += fantImage
+
+    console.log('working')
+}
+
 console.log(images);
 
